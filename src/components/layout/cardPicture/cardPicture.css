@@ -1,0 +1,35 @@
+.cardPicture{
+    max-width: 280px;
+
+    margin: 10px;
+}
+.cardPicture img{
+    width: 280px;
+    height: 550px;
+}
+.oculto{
+    position: absolute;
+    width: 260px;
+    height: 530px;
+    padding: 10px;
+    margin: -554px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: 'Oswald', sans-serif;
+    color: #b8c6df;
+    text-align: center;
+    font-weight: 300;
+    background-color: #FFF2;
+    text-shadow: 3px 3px 3px #000;
+}
+.oculto h2{
+    font-size: 24pt;
+    font-weight: 300;
+}
+.oculto p{
+    color: #d7e6ff;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+.intro {
+    background-image: url(../../../assets/imgs/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 96vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.intro h1{
+    font-family: av;
+    font-size: 28pt;
+
+    background-image: linear-gradient(to bottom, #b8c6df 50%, #6d88b7 100%);
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: #000;
+}
+.content-intro{
+    max-width: 800px;
+    padding: 15px;
+}
+.content-intro p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    color: #fff;
+
+    text-shadow: 3px 3px 10px #000;
+    text-align: center;
+}
+
+.picture{
+    background-image: url(../../../assets/imgs/pictures.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 93vh;
+}
+
+.picture h1{
+    font-family: av;
+    font-size: 28pt;
+
+    background-image: linear-gradient(to bottom, #b8c6df 50%, #6d88b7 100%);
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: #000;
+    text-shadow: 1px 1px 1px #000;
+}
+.cardsPicture{
+    max-width: 1200px;
+    display: flex;
+}
