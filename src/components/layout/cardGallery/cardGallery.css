@@ -1,0 +1,30 @@
+.contCardGal{
+    width: 25vw;
+    min-width: 330px;
+    height: 28vh;
+    min-height: 230px;
+
+    flex-grow: 1;
+}
+.cardGallery{
+    background-image: url(../../../assets/imgs/pictures.jpg);
+    background-size: cover;
+    
+    width: 24vw;
+    min-width: 320px;
+    height: 26vh;
+    min-height: 220px;
+    
+    transform: skew( -5px, +5px);
+    margin: 1vh 0.5vw;
+}
+
+.cardGallery img{
+    width: 100%;
+    height: 100%;
+    transform: skew( +5deg, -5deg);
+    transition: 1s;
+}
+.cardGallery img:hover{
+    transform: skew( -5deg, +5deg);
+}
