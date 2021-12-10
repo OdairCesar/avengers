@@ -1,0 +1,25 @@
+.films{
+    background-image: url(../../../assets/imgs/films.jpg);
+    background-size: cover;
+
+    min-height: 100vh;
+    padding-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.films h1{
+    font-family: av;
+    font-size: 28pt;
+
+    background-image: linear-gradient(to bottom, #b8c6df 50%, #6d88b7 100%);
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: #000;
+}
+.listCard{
+    padding-bottom: 40px;
+}

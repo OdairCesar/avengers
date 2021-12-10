@@ -1,0 +1,32 @@
+.cardFilm{
+    width: 1200px;
+    height: 380px;
+    padding: 15px;
+    margin-bottom: 5px;background: #264f98;
+    background: linear-gradient(90deg, #799ad5 25%, #3971d1 40%, #264f98 100%);
+
+    display: flex;
+    justify-content: center;
+}
+.cardFilm img{
+    width: 300px;
+}
+.infoFilm{
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.infoFilm h2{
+    font-size: 26pt;
+    font-family: 'Oswald', sans-serif;
+    color: #222f69;
+    margin: 0;
+    padding: 0;
+}
+.infoFilm p{
+    font-size: 14pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
