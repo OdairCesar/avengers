@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    bottom: 0px;
+
+    height: 4vh;
+    min-height: 20px;
+    width: 100vw;
+
+    background-color: #6d88b7;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    margin: 0px;
+    padding: 0px 30px;
+
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
