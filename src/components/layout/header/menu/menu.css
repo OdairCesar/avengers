@@ -1,0 +1,35 @@
+@font-face {
+    font-family: av;
+    src: url(../../../../assets/fonts/Avengeance-YolO.ttf);
+}
+.menu{
+    height: 120px;
+    display: flex;
+    align-items:center;
+    margin: 0 0 -20px 0;
+    padding: 0;
+
+    background-color: #082260;
+    z-index: 9999;
+    transform: perspective(10px) rotateX(-1deg);
+    transition: 2s;
+}
+.menu:hover{
+    border-radius: 0 0 25px 25px;
+    transform: perspective(10px) rotateX(+2deg);
+}
+.menu li{
+    list-style: none;
+    margin-bottom: 0;
+    padding: 30px 15px 15px 15px;
+
+    font-size: 20pt;
+    font-family: av, sans-serif;
+    color: #fff;
+}
+.menu li:hover{
+    color: #c5c5c5;
+}
+.menu a{
+    text-decoration: none;
+}
