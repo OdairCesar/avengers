@@ -61,3 +61,15 @@
     max-width: 1200px;
     display: flex;
 }
+@media(max-width: 550px){
+    .intro{
+        padding-top: 50px;
+    }
+    .picture{
+        height: 100%;
+    }
+    .cardsPicture{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

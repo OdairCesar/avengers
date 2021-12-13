@@ -10,7 +10,7 @@ import Menu from "./menu/menu"
 export default function Header(props){
     return(
         <nav className='cabecalho'>
-            <div class='iconeLeft'>
+            <div className='iconeLeft'>
                 <img className='logo' src={imgLogo} alt='Logotipo do site'/>
             </div>
 
@@ -18,7 +18,7 @@ export default function Header(props){
                 <Menu />
             </div>
 
-            <div class='iconeRight'> 
+            <div className='iconeRight'> 
                 <img className='contact' src={imgContact} alt='Forma de contato'/>
             </div>
         </nav>

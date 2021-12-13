@@ -19,3 +19,11 @@
     font-family: 'Oswald', sans-serif;
     color: #fff;
 }
+@media(max-width: 550px){
+    .footer{
+        position: relative;
+        flex-direction: column;
+
+        height: 100%;
+    }
+}

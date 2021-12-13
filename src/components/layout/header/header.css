@@ -45,3 +45,20 @@
     z-index: 999;
     transform: perspective(10px) rotateX(-1deg);
 }
+@media(max-width: 550px){
+    .cabecalho{
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .iconeLeft{
+        display: none;
+    }
+    .iconeRight{
+        display: none;
+    }
+}
