@@ -1,8 +1,10 @@
 .cardFilm{
-    width: 1200px;
+    width: 90vw;
+    max-width: 1200px;
     height: 380px;
     padding: 15px;
-    margin-bottom: 5px;background: #264f98;
+    margin-bottom: 5px;
+    background: #264f98;
     background: linear-gradient(90deg, #799ad5 25%, #3971d1 40%, #264f98 100%);
 
     display: flex;
@@ -29,4 +31,17 @@
     font-size: 14pt;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+}
+@media(max-width: 800px){
+    .cardFilm{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        padding: 5px;
+        background: linear-gradient(180deg, #799ad5 50%, #3971d1 75%, #264f98 100%);
+    }
+    .infoFilm{
+        margin: 0;
+        padding: 0;
+    }
 }

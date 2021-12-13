@@ -23,9 +23,16 @@
     text-shadow: 1px 1px 1px #000;
 }
 .imagens{
-    width: 80%;
+    width: 75%;
     display: flex;
+    
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+@media(max-width: 1000px){
+    .imagens{
+        width: 90%;
+    }
 }

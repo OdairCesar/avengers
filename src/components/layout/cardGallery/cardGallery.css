@@ -1,8 +1,7 @@
 .contCardGal{
-    width: 25vw;
-    min-width: 330px;
-    height: 28vh;
-    min-height: 230px;
+    width: 400px;
+    height: 225px;
+    margin: 10px 0;
 
     flex-grow: 1;
 }
@@ -10,10 +9,8 @@
     background-image: url(../../../assets/imgs/pictures.jpg);
     background-size: cover;
     
-    width: 24vw;
-    min-width: 320px;
-    height: 26vh;
-    min-height: 220px;
+    width: 400px;
+    height: 225px;
     
     transform: skew( -5px, +5px);
     margin: 1vh 0.5vw;
@@ -27,4 +24,14 @@
 }
 .cardGallery img:hover{
     transform: skew( -5deg, +5deg);
+}
+@media(max-width: 800px){
+    .contCardGal{
+        width: 80vw;
+        height: 40vh;
+    }
+    .cardGallery{
+        width: 80vw;
+        height: 40vh;
+    }
 }

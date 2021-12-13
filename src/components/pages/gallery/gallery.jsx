@@ -16,7 +16,6 @@ export default function Gallery(props){
                     )
                 })}
             </div>
-            <p>Coloquei sua imagems</p>
         </div>
     )
 }
